@@ -26,6 +26,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 import {API_ENDPOINT} from '@env';
+import IconWallet from '/static/images/ic_wallet_24.svg';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -90,6 +91,7 @@ function App(): JSX.Element {
             <DebugInstructions />
           </Section>
           <Section title="Learn More">
+            <IconWallet color={'#181920'} />
             Read the docs to discover what to do next:
           </Section>
           <LearnMoreLinks />
